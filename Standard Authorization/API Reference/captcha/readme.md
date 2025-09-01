@@ -6,18 +6,18 @@
 - **方法:**  `POST`
 - **请求参数:** 
 
-| 名称             | 类型     | 是否必须 | 描述                |
-|----------------|--------|------|-------------------|
-| mobileCode | string | N  | 二字国家简码 |
-| mobile | string | N  | 手机号 |
-| externalUserId | string | N  | DeCard用户ID |
-| behavioral | string | Y  | 行为<br /> - `REGISTER` :                  注册<br /> - `CARD_UNFROZEN`:        卡解冻 |
+| 名称             | 类型     | 是否必须 | 描述                                                                              |
+|----------------|--------|------|---------------------------------------------------------------------------------|
+| mobileCode     | string | N    | 二字国家简码                                                                          |
+| mobile         | string | N    | 手机号                                                                             |
+| externalUserId | string | N    | DeCard用户ID                                                                      |
+| behavioral     | string | Y    | 行为<br /> - `REGISTER` :                  注册<br /> - `CARD_UNFROZEN`:        卡解冻 |
 
 
 - **响应:**
 
-| 名称                  | 类型    | 描述                                      |
-| --------------------- | ------- |-----------------------------------------|
+| 名称   | 类型     | 描述     |
+|------|--------|--------|
 | data | String | mobile |
 
 
